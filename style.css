@@ -15,14 +15,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
   flex-wrap: wrap;
   cursor: pointer;
 }
 
 .question img {
   height: 1rem;
-  /* transform: rotate(180deg); */
 }
 
 .answer {
@@ -31,4 +29,12 @@ body {
 
 .show-more .answer {
   display: block;
+}
+
+.show-more .arrow {
+  transform: rotate(180deg);
+}
+
+.show-more h3 {
+  color: black;
 }
